@@ -39,7 +39,7 @@ unlabelled-speaker-recognition/
 2. Refer to **`PSEUDOCODE.md`** for a compact view of the full processing pipeline.
 3. Review the files in **`src/`** to see how the initial data exploration and preprocessing stages could be implemented.
 
-The assessment dataset was not provided, so the code is intended to demonstrate the proposed implementation approach rather than provide tested experimental results. Parameters such as speech-segmentation thresholds, window size, and clustering settings would need to be validated and tuned once the actual recordings are available.
+- The assessment dataset was not provided, so the code is intended to demonstrate the proposed implementation approach rather than provide tested experimental results. Parameters such as speech-segmentation thresholds, window size, and clustering settings would need to be validated and tuned once the actual recordings are available.
 ---
 
 
