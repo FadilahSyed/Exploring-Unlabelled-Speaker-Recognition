@@ -5,6 +5,42 @@
 To investigate potential approaches for detecting and recognizing individual speakers from a dataset of over 200 unlabelled microphone recordings. When a voice is present, the goal is to identify which of the 200 speakers it belongs to.
 
 ---
+## How to Navigate This Repository
+
+The repository separates the written proposal from the supporting conceptual code.
+
+```text
+unlabelled-speaker-recognition/
+│
+├── README.md
+├── PSEUDOCODE.md
+└── src/
+    ├── explore_audio.py
+    └── preprocess.py
+```
+
+### Files
+
+- **`README.md`**  
+  Contains the main submission, including the proposed approach, implementation strategy, evaluation methods, challenges, and assumptions.
+
+- **`PSEUDOCODE.md`**  
+  Provides a high-level overview of the complete proposed pipeline, from audio exploration and preprocessing to speaker embedding extraction, clustering, and evaluation.
+
+- **`src/explore_audio.py`**  
+  Demonstrates how the dataset could initially be inspected, including file duration, sampling rate, number of channels, and basic error checking.
+
+- **`src/preprocess.py`**  
+  Demonstrates the proposed preprocessing steps, including converting audio to mono, resampling to 16 kHz, removing silent regions, and splitting recordings into shorter speech segments.
+
+### Recommended Reading Order
+
+1. Start with **`README.md`** for the overall problem analysis and proposed solution.
+2. Refer to **`PSEUDOCODE.md`** for a compact view of the full processing pipeline.
+3. Review the files in **`src/`** to see how the initial data exploration and preprocessing stages could be implemented.
+
+The assessment dataset was not provided, so the code is intended to demonstrate the proposed implementation approach rather than provide tested experimental results. Parameters such as speech-segmentation thresholds, window size, and clustering settings would need to be validated and tuned once the actual recordings are available.
+---
 
 
 ## 1. Data Exploration
