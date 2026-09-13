@@ -6,7 +6,6 @@ To investigate potential approaches for detecting and recognizing individual spe
 
 ---
 
-# Introduction & Overview
 
 ## 1. Data Exploration
 
