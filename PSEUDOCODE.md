@@ -5,6 +5,8 @@ INPUT:
     Set of unlabelled audio recordings
     Approximate number of speakers ≈ 200
 
+
+
 1. DATA EXPLORATION
 
 FOR each audio file:
